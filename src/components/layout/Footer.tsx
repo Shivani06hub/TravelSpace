@@ -1,7 +1,16 @@
+"use client"
+
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Compass, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
+  const [year, setYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="bg-secondary/50 border-t mt-auto">
       <div className="container mx-auto px-4 py-12 md:px-6">
@@ -68,7 +77,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t mt-12 pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} TravelSphere. All rights reserved.
+          © {year ?? '...'} TravelSphere. All rights reserved.
         </div>
       </div>
     </footer>
