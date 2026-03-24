@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Aerial view of a tropical turquoise beach with white sand",
+      "imageUrl": "https://picsum.photos/seed/travel-hero/1920/1080",
+      "imageHint": "tropical beach"
+    },
+    {
+      "id": "maldives",
+      "description": "Luxury overwater bungalows in Maldives",
+      "imageUrl": "https://picsum.photos/seed/maldives/800/600",
+      "imageHint": "maldives resort"
+    },
+    {
+      "id": "himalayas",
+      "description": "Snowy peaks of the Himalayan mountains",
+      "imageUrl": "https://picsum.photos/seed/himalayas/800/600",
+      "imageHint": "himalayas mountains"
+    },
+    {
+      "id": "bali",
+      "description": "Lush green rice terraces in Bali",
+      "imageUrl": "https://picsum.photos/seed/bali/800/600",
+      "imageHint": "bali nature"
+    },
+    {
+      "id": "paris",
+      "description": "Eiffel Tower during sunset",
+      "imageUrl": "https://picsum.photos/seed/paris/800/600",
+      "imageHint": "paris landmarks"
+    },
+    {
+      "id": "goa",
+      "description": "Sun-kissed beach in Goa with palm trees",
+      "imageUrl": "https://picsum.photos/seed/goa/800/600",
+      "imageHint": "goa beach"
+    },
+    {
+      "id": "kyoto",
+      "description": "Ancient Japanese temple in Kyoto surrounded by autumn leaves",
+      "imageUrl": "https://picsum.photos/seed/kyoto/800/600",
+      "imageHint": "kyoto temple"
+    }
+  ]
 }
