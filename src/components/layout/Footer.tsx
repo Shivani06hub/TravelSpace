@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Compass, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 
 export function Footer() {
   const [year, setYear] = useState<number | null>(null);
@@ -65,14 +67,14 @@ export function Footer() {
               Subscribe to get the latest offers and travel tips directly in your inbox.
             </p>
             <div className="flex space-x-2">
-              <input 
+              <Input 
                 type="email" 
                 placeholder="Your email" 
-                className="bg-background border px-3 py-2 rounded-md text-sm w-full focus:outline-none focus:ring-2 focus:ring-primary"
+                className="bg-background border rounded-md text-sm w-full"
               />
-              <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-medium hover:bg-primary/90">
+              <Button variant="default" className="bg-primary text-primary-foreground font-medium hover:bg-primary/90">
                 Join
-              </button>
+              </Button>
             </div>
           </div>
         </div>
