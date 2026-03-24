@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { generatePreTravelTips, PreTravelTipGeneratorOutput } from '@/ai/flows/ai-pre-travel-tip-generator';
+import { generatePreTravelTips } from '@/ai/flows/ai-pre-travel-tip-generator';
 import { 
   CheckCircle2, 
   Clock, 
@@ -23,7 +23,8 @@ import {
   CalendarDays,
   Utensils,
   Hotel,
-  Bus
+  Bus,
+  Compass
 } from 'lucide-react';
 
 export default function PackageDetails() {
